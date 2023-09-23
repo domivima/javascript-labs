@@ -21,5 +21,22 @@
  * with clear and descriptive names.
  */
 
-let result = 0
-console.log("Label", result)
+let m = 4856;
+let n = 8574;
+let i = 9285;
+let luckyNumber = 7
+
+let sum = m + n + i + luckyNumber;
+console.log("sum", sum)
+
+let sub = i - luckyNumber - m;
+console.log("substruction", sub)
+
+let mult = m * n * i * luckyNumber;
+console.log("multiplication", mult)
+
+let calc = i / (m - luckyNumber);
+console.log("division", calc)
+
+let remainder = sum % luckyNumber;
+console.log("modulo", remainder)

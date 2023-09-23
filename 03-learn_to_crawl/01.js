@@ -3,8 +3,7 @@
 // the code so that the console does not display any errors.
 
 
-let result;
-let result          =       78347823   *
-    843972    ;
-
-console.log(result)
+let x = 78347823;
+let y = 843972;
+result = x * y;
+console.log(result);
